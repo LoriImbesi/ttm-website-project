@@ -1,0 +1,20 @@
+nav {color: #000033; background-color: #D3D3D3; background-position: right; line-height: 400%; text-indent: 1em; }
+
+footer {color: #000033; background-color: #D3D3D3; background-position: right; line-height: 400%; text-indent: 1em; font-family: sans-serif; }
+
+h1 {font-family: Georgia, "Times New Roman", serif; 
+    }
+h2 {color: #000033; font-family: Georgia, "Times New Roman", serif; 
+     }
+h3 {color: #000033; font-family: Georgia, "Times New Roman", serif; }
+
+form {font-family: sans-serif; color: darkgray; }
+.form-wrapper {
+  max-width: 80%;
+  min-width: 300px;
+  padding: 30px 50px 50px 30px;
+  margin: 50px auto;   
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 15px 35px rgba(50,50,93,.1),0 5px 15px rgba(0,0,0,.07);
+}
