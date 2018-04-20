@@ -1,5 +1,13 @@
 nav {color: #000033; background-color: #D3D3D3; background-position: right; line-height: 400%; text-indent: 1em; }
 
+.navbar-brand { 
+    max-height: 40px;
+    max-width: 30%; 
+    overflow: visible;
+    padding-top: 0;
+    padding-bottom: 0; 
+}
+
 footer {color: #000033; background-color: #D3D3D3; background-position: right; line-height: 400%; text-indent: 1em; font-family: sans-serif; }
 
 h1 {font-family: Georgia, "Times New Roman", serif; 
