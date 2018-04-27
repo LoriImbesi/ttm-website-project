@@ -1,28 +1,96 @@
-nav {color: #000033; background-color: #D3D3D3; background-position: right; line-height: 400%; text-indent: 1em; }
+body, html {
+    height: 100%;
+}
 
-.navbar-brand { 
-    max-height: 40px;
-    max-width: 30%; 
+/* .nav {color: #000033; background-color: #D3D3D3; background-position: right; line-height: 400%; text-indent: 1em; }
+*/
+
+.navbar { 
+    max-height: 20px;
+    max-width: 100%; 
     overflow: visible;
     padding-top: 0;
     padding-bottom: 0; 
+    background-color: transparent;
+    background-image: none;
+    border-color:transparent;
+    box-shadow: none;
+    opacity: 0.8;
+}
+.navbar-right {text-align:right; }
+
+/* The hero image */
+.hero-image {
+    /* The image used */
+    background-image: url("Assets/totnes-transition-town-the-happy-beast.jpg");
+
+    /* Set a specific height */
+    height: 80%;
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
 
 footer {color: #000033; background-color: #D3D3D3; background-position: right; line-height: 400%; text-indent: 1em; font-family: sans-serif; }
 
 h1 {font-family: Georgia, "Times New Roman", serif; 
-    }
-h2 {color: #000033; font-family: Georgia, "Times New Roman", serif; 
-     }
+}
+h2 {color: #000033; 
+    font-family: Georgia, "Times New Roman", serif;
+    display: inline-block;
+    margin-right: 30px;
+}
 h3 {color: #000033; font-family: Georgia, "Times New Roman", serif; }
 
 form {font-family: sans-serif; color: darkgray; }
 .form-wrapper {
-  max-width: 80%;
-  min-width: 300px;
-  padding: 30px 50px 50px 30px;
-  margin: 50px auto;   
-  background-color: #ffffff;
-  border-radius: 5px;
-  box-shadow: 0 15px 35px rgba(50,50,93,.1),0 5px 15px rgba(0,0,0,.07);
+    max-width: 80%;
+    min-width: 300px;
+    padding: 30px 50px 50px 30px;
+    margin: 50px auto;   
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 15px 35px rgba(50,50,93,.1),0 5px 15px rgba(0,0,0,.07);
 }
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+button { display: inline-block;
+    vertical-align: bottom; 
+}
+/* Set width to make card deck cards 100% width */
+@media (max-width: 950px) { 
+
+    .container {padding-left:10px; padding-right:10px; }
+    .card-deck-wrapper {margin-right:0; margin-left:0; 
+    }
+    
+    /*	.card-deck {
+    display: block;
+    width: 100%;
+    margin-bottom: .75rem;
+    table-layout: fixed;
+    border-spacing: 1.25rem 0;
+}
+
+    .card-deck .card {
+    display: block;
+    margin-bottom: .75rem;
+    vertical-align: top;
+}
+
+    .card-deck .card:not(:first-child) {
+    margin-left: 0px;
+}
+    */
+}
+

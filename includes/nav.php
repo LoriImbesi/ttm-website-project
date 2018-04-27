@@ -1,9 +1,12 @@
 <div id="wrapper">
 
-    <nav class="navbar navbar-expand-lg navbar-inverse navbar-fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-light navbar-fixed-top" style="background-color: #fafafa;" >
+        <div {
+    opacity: 0.5;
+}></div>
         <div class="container-fluid">
-            <a class="navbar-brand" href="index.html"><img src="Assets/TTM-Logo_50a.png" alt="Transition Town Media"></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <a class="navbar-brand" href="index.php"><img src="Assets/TTM-Logo_50a.png" alt="Transition Town Media"></a>
+           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
