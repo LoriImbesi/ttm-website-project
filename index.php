@@ -49,7 +49,7 @@
      <div class="container"> 
             <h2>Upcoming Events</h2>
          
-            <button type="button" class="btn btn-primary btn-sm">See all Events</button>
+            <button type="button" class="btn btn-primary btn-sm btn-see-all-events">See all Events</button>
           </div>
             <div class="container">
 

@@ -6,16 +6,12 @@ body, html {
 */
 
 .navbar { 
-    max-height: 20px;
-    max-width: 100%; 
-    overflow: visible;
     padding-top: 0;
-    padding-bottom: 0; 
-    background-color: transparent;
+    padding-bottom: 0;
+    background-color: rgba(255,255,255,0.2);
     background-image: none;
-    border-color:transparent;
+    border-color: transparent;
     box-shadow: none;
-    opacity: 0.8;
 }
 .navbar-right {text-align:right; }
 
@@ -33,6 +29,12 @@ body, html {
     background-size: cover;
     position: relative;
 }
+
+
+#events .btn-see-all-events {
+    vertical-align: super;
+}
+
 
 footer { color: #000033; background-color: #D3D3D3; padding: 40px 0; }
 
