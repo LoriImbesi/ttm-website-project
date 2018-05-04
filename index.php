@@ -16,6 +16,7 @@
   <div class="hero-text">
   </div>
 </div>
+        <hr>
         
 <!--        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
@@ -44,16 +45,16 @@
             </a>
         </div>
 -->
-        <br>
+        
 <div id="events">
      <div class="container"> 
-            <h2>Upcoming Events</h2>
+            <h2 class="section-heading">Upcoming Events</h2>
          
             <button type="button" class="btn btn-primary btn-sm btn-see-all-events">See all Events</button>
           </div>
             <div class="container">
 
-                <div class="card-deck-wrapper">
+                <div class="card-deck-wrapper" style="background-color: #F8F8F8;">
                     <div class="card-deck">
                         <div class="card">
                             <img class="card-img-top" src="..." alt="Card image cap">
@@ -84,18 +85,22 @@
             </div>
         </div>
        
-        
+    
  <div class="container">       
 <div class="row">
      <div class="col-12"></div>
-  <div class="col-8">
-      <h2>Transition Town Media</h2>
-    <p>We are a group of neighbors and friends working to build a stronger, more resilient future for all of us in the Greater Media Area.</p></div>
-  <div class="col-4">
+  <div class="col-8" style="background-color: #eee;">
+      <h2 class="section-heading">Transition Town Media</h2>
+    <p>We are a group of neighbors and friends working to build a stronger, more resilient future for all of us in the Greater Media Area.</p>
+      <p>MORE ABOUT US</p></div>
+  <div class="col-4" style="background-color: #F8F8F8;">
       <h3>Becoming a Member</h3>
-      <p>All Transition Town meetings are free and open to the public, however membership is required to join a Working Group.</p></div>
+      <p>All Transition Town meetings are free and open to the public, however membership is required to join a Working Group.</p>
+      <p>LEARN MORE</p>
+    </div>
 </div>
         </div>
+        
 
     <?php include('includes/footer.php'); ?>
 

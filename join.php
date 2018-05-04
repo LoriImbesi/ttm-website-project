@@ -11,12 +11,14 @@
     <body>
         
         <?php include('includes/nav.php'); ?>
-        <header>
-            
-        </header>
-
+       
+        <hr>
+        <div class= "membership">
+            <h2 class="section-heading">Become a Member</h2>
+            <div class="container">
+            <div class="membership-form">
+           </div>
         <main>
-            <h2>Become a Member</h2>
             <p>All Transition Town Media Events and Meetings are open to the public, however, membership is required to join a Working Group or an Administrative Team. All memberships are free, donations are greatly appreciated. Transition Town Media (TTM)
             </p>
 
