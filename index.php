@@ -116,24 +116,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
-    <script>
-        // as you scroll the page
-        //      if the page has scrolled down from 0 (the top of the page)
-        //      -- then add a class on the navbar to make it less transparent (more opaque)
-        //      else (its at the top of the page)
-        //      -- then remove the class on the navbar to make it the original transparency
-
-        $(function() {
-            $(window).on('scroll', function() {
-                var scrollTop = $(window).scrollTop();
-                if (scrollTop > 0) {
-                    $('.navbar').addClass('navbar-scrolled');
-                } else {
-                    $('.navbar').removeClass('navbar-scrolled');
-                }
-            });
-        });
-    </script>
+    <script src="main.js"></script>
 
     </body>
 </html>
