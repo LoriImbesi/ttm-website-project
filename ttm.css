@@ -8,12 +8,14 @@ body, html {
 .navbar { 
     padding-top: 0;
     padding-bottom: 0;
-    background-color: rgba(255,255,255,0.2);
+    background-color: rgba(255,255,255,0.4);
     background-image: none;
     border-color: transparent;
     box-shadow: none;
+    transition: 0.5s background-color;
 }
 .navbar-right {text-align:right; }
+.navbar-scrolled { background-color: rgba(255,255,255,0.8); }
 
 /* The hero image */
 .hero-image {
@@ -29,17 +31,10 @@ body, html {
     background-size: cover;
     position: relative;
 }
-/*
-.darken {
-background-image: url("Assets/totnes-transition-town-the-happy-beast.jpg")
-linear-gradient(
-rgba(0, 0, 0, 0.5),
-rgba(0, 0, 0, 0.5)
-),
-url("Assets/totnes-transition-town-the-happy-beast.jpg");
+.background-image{
+    width: 100%;
+    height:auto;
 }
-
-*/
 
 #events .btn-see-all-events {
     vertical-align: super;

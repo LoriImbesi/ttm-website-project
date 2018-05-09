@@ -86,14 +86,14 @@ Check me out
                     <h3>Would you like to join a Working Group?</h3>
 
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="yesNo" id="yesNo" value="option1" checked>
+                        <input class="form-check-input" type="radio" name="yesNo" id="yesNo" value="option1">
                         <label class="form-check-label" for="yesNo">
                             Yes
                         </label>    
                     </div>
 
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="yesNo" id="yesNo" value="option1" checked>
+                        <input class="form-check-input" type="radio" name="yesNo" id="yesNo" value="option1">
                         <label class="form-check-label" for="yesNo">
                             No
                         </label>
@@ -104,14 +104,14 @@ Check me out
                     <h3>Would you like to join our TimeBank?</h3>
 
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="yesNo" id="yesNo" value="option1" checked>
+                        <input class="form-check-input" type="radio" name="yesNo" id="yesNo" value="option1">
                         <label class="form-check-label" for="yesNo">
                             Yes
                         </label>
                     </div>
 
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="yesNo" id="yesNo" value="option1" checked>
+                        <input class="form-check-input" type="radio" name="yesNo" id="yesNo" value="option1" >
                         <label class="form-check-label" for="yesNo">
                             No
                         </label>
@@ -131,7 +131,7 @@ Check me out
                     </div>
 
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="yesNo" id="yesNo" value="option1" checked>
+                        <input class="form-check-input" type="radio" name="yesNo" id="yesNo" value="option1" >
                         <label class="form-check-label" for="yesNo">
                             No
                         </label>
