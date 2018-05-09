@@ -9,36 +9,79 @@
         <link rel="stylesheet" href="ttm.css">
     </head>
     <body>
-        
+
         <?php include('includes/nav.php'); ?>
-       
-        <hr>
+
+
+        <div class="jumbotron" style="background-image:  url('Assets/plantsinpots.png');" >
+            <div class ="container">
+            </div>
+        </div>
+
+
         <div class= "membership">
-            <h2 class="section-heading">Become a Member</h2>
             <div class="container">
-            <div class="membership-form">
-           </div>
-        <main>
-            <p>All Transition Town Media Events and Meetings are open to the public, however, membership is required to join a Working Group or an Administrative Team. All memberships are free, donations are greatly appreciated. Transition Town Media (TTM)
-            </p>
+                <h2 class="section-heading">Become a Member</h2>
 
-            <div class="form-wrapper">
+                <div class="membership-form">
+                </div>
+                <main>
+                    <p>All Transition Town Media Events and Meetings are open to the public, however, membership is required to join a Working Group or an Administrative Team. All memberships are free, donations are greatly appreciated. Transition Town Media (TTM)
+                    </p>
 
-                <form> 
+                    <!-- <div class="form-wrapper"> -->
+                    <form>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="inputFirstName">First name</label>
+                                <input type="FirstName" class="form-control" id="inputFirstName" placeholder="First name">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="inputLastName">Last name</label>
+                                <input type="LastName" class="form-control" id="inputLastName" placeholder="Last name">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="inputCity">City</label>
+                                <input type="text" class="form-control" id="inputCity">
+                            </div>
+                            <div class="form-group col-md-4">
+                                <label for="inputState">State</label>
+                                <select id="inputState" class="form-control">
+                                    <option selected>Choose...</option>
+                                    <option>...</option>
+                                </select>
+                            </div>
+                            <div class="form-group col-md-2">
+                                <label for="inputZip">Zip</label>
+                                <input type="text" class="form-control" id="inputZip">
+                            </div>
+                        </div>
+                        <div class="form-row"> 
+                            <div class="form-group col-md-6">
+                                <label for="inputEmail">Your email</label>
+                                <input type="text" class="form-control" id="inputEmail" placeholder="e.g. name@email.com">
+                            </div>
+                            <div class="form-group col-md-4">
+                                <label for="inputPhoneNumber">Your best phone</label>
+                                <input type="PhoneNumber" class="form-control" id="inputPhoneNumber" placeholder="Your phone number">
+                            </div>
+                        </div>
+                        <hr>
 
-                    <p>
-                        First Name<br><input type="text" name="first_name" id="first_name" size="40"><br>
-                        Last Name<br><input type="text" name="last_name" id="last_name" size="40"><br>
-                    <h3>Where do you live?</h3>
-                    City<br><input type="text" name="city" id="city" size="30"><br>
-                    Zip code<br><input type="text" name="zipcode" id="zipcode" size="15" ><br>
-                    <h3>Your Email</h3>
-                    e.g. name@email.com<br><input type="email" name="email" id="email" size="40"><br>
-                    <h3>Your Best Phone</h3>
-                    e.g 222-222-2222<br><input type="tel" name="phone" id="phone" size="30">
+                        <!--<div class="form-group">
+<div class="form-check">
+<input class="form-check-input" type="checkbox" id="gridCheck">
+<label class="form-check-label" for="gridCheck">
+Check me out
+</label>
+</div>
+</div>
+<button type="submit" class="btn btn-primary">Sign in</button>
+-->
+                    </form>
 
-                    <p>&nbsp;</p>
-                    <p>
 
                     <h3>Would you like to join a Working Group?</h3>
 
@@ -46,7 +89,7 @@
                         <input class="form-check-input" type="radio" name="yesNo" id="yesNo" value="option1" checked>
                         <label class="form-check-label" for="yesNo">
                             Yes
-                        </label>
+                        </label>    
                     </div>
 
                     <div class="form-check">
@@ -54,6 +97,8 @@
                         <label class="form-check-label" for="yesNo">
                             No
                         </label>
+                        <div class="row mb-4">
+                        </div>
                     </div>
 
                     <h3>Would you like to join our TimeBank?</h3>
@@ -67,10 +112,14 @@
 
                     <div class="form-check">
                         <input class="form-check-input" type="radio" name="yesNo" id="yesNo" value="option1" checked>
-                        <label class="form-check-label" for="yesNo    ">
+                        <label class="form-check-label" for="yesNo">
                             No
                         </label>
+                        <div class="row mb-4">
+                        </div>
                     </div>
+
+
 
                     <h3>Would you like to join Transition Town Media as a paying member and submit a donation with you membership?</h3>
 
@@ -86,14 +135,16 @@
                         <label class="form-check-label" for="yesNo">
                             No
                         </label>
+                        <div class="row mb-4">
+                        </div>
                     </div>
+                    <button type="submit" class="btn btn-primary">Become a Member</button>
 
-                    <p>       
-                        <input type="submit" value="Become a Member">
-                    </p>
-                </form>
+                    <div class="row mb-5">
+                    </div>
+                </main>
             </div>
-        </main> 
+        </div>
 
         <?php include('includes/footer.php'); ?>
 

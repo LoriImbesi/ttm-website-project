@@ -29,7 +29,17 @@ body, html {
     background-size: cover;
     position: relative;
 }
+/*
+.darken {
+background-image: url("Assets/totnes-transition-town-the-happy-beast.jpg")
+linear-gradient(
+rgba(0, 0, 0, 0.5),
+rgba(0, 0, 0, 0.5)
+),
+url("Assets/totnes-transition-town-the-happy-beast.jpg");
+}
 
+*/
 
 #events .btn-see-all-events {
     vertical-align: super;
@@ -61,18 +71,17 @@ h2 {color: #000033;
     display: inline-block;
     margin-right: 30px;
 }
+
+.section-heading {
+    padding-top: 10px;
+}
+.sub-heading {
+    padding-top: 10px;
+}
 h3 {color: #000033; font-family: Georgia, "Times New Roman", serif; }
 
 form {font-family: sans-serif; color: darkgray; }
-.form-wrapper {
-    max-width: 80%;
-    min-width: 300px;
-    padding: 30px 50px 50px 30px;
-    margin: 50px auto;   
-    background-color: #ffffff;
-    border-radius: 5px;
-    box-shadow: 0 15px 35px rgba(50,50,93,.1),0 5px 15px rgba(0,0,0,.07);
-}
+
 /* Style all font awesome icons */
 .fa {
     padding: 20px;
@@ -91,7 +100,7 @@ button { display: inline-block;
     .container {padding-left:10px; padding-right:10px; }
     .card-deck-wrapper {margin-right:0; margin-left:0; 
     }
-    
+
     /*	.card-deck {
     display: block;
     width: 100%;
@@ -113,12 +122,12 @@ button { display: inline-block;
 }
 
 .jumbotron {
-  background-image:url('Assets/planting.jpg');
-  height:500px;
-  background-repeat: no-repeat;
-  background-size: cover;
+    background-image:url('Assets/planting.jpg');
+    height:500px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .jumbotron .container {
-  position:relative;
-  top:50px;
-}min-height: 600px}
+    position:relative;
+    top:50px;
+    min-height: 600px}

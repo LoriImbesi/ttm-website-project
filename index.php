@@ -14,9 +14,10 @@
         
         <div class="hero-image">
   <div class="hero-text">
+     
   </div>
 </div>
-        <hr>
+        
         
 <!--        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
@@ -45,6 +46,28 @@
             </a>
         </div>
 -->
+        
+
+    
+ <div class="container">       
+<div class="row">
+     <div class="col-12 mt-3"></div>
+  <div class="col-8" style="background-color: #eee;">
+      <h2 class="section-heading">Transition Town Media</h2>
+    <p>We are a group of neighbors and friends working to build a stronger, more resilient future for all of us in the Greater Media Area.</p>
+      <p>MORE ABOUT US</p></div>
+  <div class="col-4" style="background-color: #F8F8F8;">
+      <h3 class="sub-heading">Becoming a Member</h3>
+      <p>All Transition Town meetings are free and open to the public, however membership is required to join a Working Group.</p>
+        <a class="nav-link" href="join.php">LEARN MORE</a>
+      
+      <div class="row">
+     <div class="col-12 mb-3"></div>
+          
+      </div>
+    </div>
+</div>
+        </div>
         
 <div id="events">
      <div class="container"> 
@@ -84,24 +107,9 @@
                 </div>
             </div>
         </div>
-       
-    
- <div class="container">       
-<div class="row">
-     <div class="col-12"></div>
-  <div class="col-8" style="background-color: #eee;">
-      <h2 class="section-heading">Transition Town Media</h2>
-    <p>We are a group of neighbors and friends working to build a stronger, more resilient future for all of us in the Greater Media Area.</p>
-      <p>MORE ABOUT US</p></div>
-  <div class="col-4" style="background-color: #F8F8F8;">
-      <h3>Becoming a Member</h3>
-      <p>All Transition Town meetings are free and open to the public, however membership is required to join a Working Group.</p>
-      <p>LEARN MORE</p>
-    </div>
-</div>
-        </div>
         
-
+        <hr>
+       
     <?php include('includes/footer.php'); ?>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

@@ -10,9 +10,9 @@
             <div class="row align-items-center">
                 <div class="col text-left">
                     <ul class="list-inline larger-footer-links">
-                        <li class="list-inline-item"><a href="#">Join</a></li>
+                        <li class="list-inline-item"><a href="join.php">Join</a></li>
                         <li class="list-inline-item"><a href="#">Donate</a></li>
-                        <li class="list-inline-item"><a href="#">Volunteer</a></li>
+                        <li class="list-inline-item"><a href="volunteerOps.php">Volunteer</a></li>
                     </ul>
                     
                     <ul class="list-inline">

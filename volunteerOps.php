@@ -22,29 +22,56 @@
 
         <hr>
         <div class= "volunteer-opportunities">
+            <div class="container">
+                
             <h2 class="section-heading">Volunteer Opportunities</h2>
-            
+                <p>There are many ways to get involved with Transition Town Media!</p>
+
             <div class="volunteer-descriptions">
-            <div class="row">
-  
-                 <div class="col-4" style="background-image:url(Assets/TTMbanner.png);">col-4</div>
-                <div class="col-8">A WORKING GROUP forms when Transition members share a passionate commitment for a particular topic related to creating a resilient community. TTM WORKING GROUPS </div>
-                 <div class="col-4"style="background-image:url(Assets/FreeStoreLogo.jpg);">col-4</div>
-                <div class="col-8">Anyone can volunteer to sit the FreeStore, but we do ask that you sign up in our volunteer system and go through an informal "training" with one of our experienced volunteers. LEARN MORE</div>
-                 <div class="col-4" style="background-image:url(Assets/TBMHillsideimage.jpg);">col-4</div>
-                <div class="col-8">TimeBank Media is a volunteer-led initiative of Transition Town Media that strives to create a community-wide circle of giving to encourage people to volunteer their talents and receive, in return, help with their unmet needs. LEARN MORE</div>
-                 <div class="col-4">col-4</div>
-                <div class="col-8">Subscribe to our newsletter to hear news about our projects and upcoming events! Join as a paying member! Donations are always welcome, too. LEARN MORE</div>
-                 <div class="col-4">col-4</div>
-                <div class="col-8">We have monthly business meetings where the WGs report on their activities, hear other members’ ideas, discuss strategies, and get support as needed. LEARN MORE</div>
-                 <div class="col-4">col-4</div>
-                <div class="col-8">col-8</div>
- 
-</div>
-            
+                
+                <div class="row">
+
+                   
+                    <div class="col-5 mb-5" style="background-image:url(Assets/TTMbanner.png); max-width: 100%;"></div>
+                    
+
+
+                    <div class="col-6 mb-5">
+                      <div class="px-2">
+                            A WORKING GROUP forms when Transition members share a passionate commitment for a particular topic related to creating a resilient community. TTM WORKING GROUPS </div>
+                    </div>
+                    <div class="col-1 mb-5">
+                    </div>
+                    <div class="col-5 mb-5 "style="background-image:url(Assets/FreeStoreLogo.jpg);">col-4</div>
+                    <div class="col-6 mb-5">
+                      <div class="px-2">  
+                            Anyone can volunteer to sit the FreeStore, but we do ask that you sign up in our volunteer system and go through an informal "training" with one of our experienced volunteers.</div> <a class="nav-link" href="https://www.mediafreestore.com">LEARN MORE</a>
+                    </div>
+                    <div class="col-5 mb-5 " style="background-image:url(Assets/TBMHillsideimage.jpg);">col-4</div>
+                    <div class="col-6 mb-5">
+
+                        <div class="px-2">
+                            TimeBank Media is a volunteer-led initiative of Transition Town Media that strives to create a community-wide circle of giving to encourage people to volunteer their talents and receive, in return, help with their unmet needs.</div> <a class="nav-link" href="https://timebankmedia.org/">LEARN MORE</a>
+                    </div>
+
+                    <div class="col-5 mb-5 " style="background-image:url(Assets/TBMHillsideimage.jpg);">col-4</div>
+
+                    <div class="col-6 mb-5">
+                        <div class="px-2">
+                            Subscribe to our Newsletter to hear news about our projects and upcoming events! Join as a paying member! Donations are always welcome, too. LEARN MORE</div>
+                    </div>
+                    <div class="col-5 mb-5 " style="background-image:url(Assets/TBMHillsideimage.jpg);">col-4</div>
+                    <div class="col-6 mb-5">
+                       <div class="px-2">
+                            Steering Group holds monthly business meetings where the WGs report on their activities, hear other members’ ideas, discuss strategies, and get support as needed. LEARN MORE</div>
+                    </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
             </div>
-        
-        </div>
 
 
         <?php include('includes/footer.php'); ?>

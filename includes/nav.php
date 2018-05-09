@@ -13,16 +13,16 @@
                     <a class="nav-link" href="events.html">Events</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="initiatives.html">Initiatives</a>
+                    <a class="nav-link" href="initiatives.php">Initiatives</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="volunteerOps.html">Volunteer</a>
+                    <a class="nav-link" href="volunteerOps.php">Volunteer</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="blog.html">Blog</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="support.html">Support</a>
+                    <a class="nav-link" href="support.php">Support</a>
                 </li>
             </ul>
         </div>
