@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville|Open+Sans" rel="stylesheet">
         <link rel="stylesheet" href="ttm.css">
     </head>
     <body>
@@ -15,18 +16,19 @@
 
         <div class="jumbotron" style="background-image:  url('Assets/plantsinpots.png');" >
             <div class ="container">
+                <h1 class="section-heading" style="margin-top: 280px; color:#ffffff;">Become a Member</h1>
             </div>
         </div>
 
 
         <div class= "membership">
             <div class="container">
-                <h2 class="section-heading">Become a Member</h2>
+                
 
                 <div class="membership-form">
                 </div>
                 <main>
-                    <p>All Transition Town Media Events and Meetings are open to the public, however, membership is required to join a Working Group or an Administrative Team. All memberships are free, donations are greatly appreciated. Transition Town Media (TTM)
+                    <p>All Transition Town Media Events and Meetings are open to the public, however, membership is required to join a Working Group or an Administrative Team. All memberships are free, donations are greatly appreciated.
                     </p>
 
                     <!-- <div class="form-wrapper"> -->
@@ -121,7 +123,7 @@ Check me out
 
 
 
-                    <h3>Would you like to join Transition Town Media as a paying member and submit a donation with you membership?</h3>
+                    <h3>Would you like to join Transition Town Media as a paying member and submit a donation with your membership?</h3>
 
                     <div class="form-check">
                         <input class="form-check-input" type="radio" name="yesNo" id="yesNo">
@@ -148,9 +150,11 @@ Check me out
 
         <?php include('includes/footer.php'); ?>
 
-
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>    
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> 
+        
+        <script src="main.js"></script>
+    
     </body>
 </html>

@@ -32,19 +32,68 @@ body, html {
     position: relative;
 }
 .background-image{
+    background-position: center;
+    background-repeat: no-repeat;
     width: 100%;
     height:auto;
 }
+.col-5{
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height:auto;
 
+}
+/*
 #events .btn-see-all-events {
     vertical-align: super;
+    background-image: linear-gradient(to bottom, rgb 143,213,228);
+    transition : background-color 0.5s ease 0s;
+   /* background-color: #8FD5E4; */
+    color: white;
+} */
+
+.btn {
+   border-top: 1px solid #96d1f8;
+   background: #8fd4e4;
+   background: -webkit-gradient(linear, left top, left bottom, from(#3e779d), to(#8fd4e4));
+   background: -webkit-linear-gradient(top, #3e779d, #8fd4e4);
+   background: -moz-linear-gradient(top, #3e779d, #8fd4e4);
+   background: -ms-linear-gradient(top, #3e779d, #8fd4e4);
+   background: -o-linear-gradient(top, #3e779d, #8fd4e4);
+   padding: 5px 10px;
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   font-size: 14px;
+   font-family: Helvetica, serif;
+   text-decoration: none;
+   vertical-align: super;
+   }
+.btn:hover {
+   border-top-color: #28597a;
+   background: #28597a;
+   color: #ccc;
+   }
+.btn:active {
+   border-top-color: #1b435e;
+   background: #1b435e;
+   }
+
+footer { 
+    color: rgb(245,245,245); 
+    background-color: rgb(128, 128, 128); 
+    padding: 40px 0;
+    font-size: 90%;
 }
 
-
-footer { color: #000033; background-color: #D3D3D3; padding: 40px 0; }
-
 footer a {
-    color: black;
+    color: #8FD5E4;
 }
 footer a:hover,
 footer a:active {
@@ -58,24 +107,50 @@ footer .larger-footer-links a {
     font-size: 150%;
 }
 
+}
+    
+}
 
-h1 {font-family: Georgia, "Times New Roman", serif; 
+font {font-family:"Open Sans", sans-serif; }
+h1 {font-family:"Libre Baskerville", serif; 
 }
 h2 {color: #000033; 
-    font-family: Georgia, "Times New Roman", serif;
+    font-family:"Libre Baskerville", serif; 
     display: inline-block;
     margin-right: 30px;
 }
+h3 {color: #000033; font-family:"Libre Baskerville", sans-serif; }
+
+h4 {color: #000033; font-family:"Libre Baskerville", sans-serif; }
+
 
 .section-heading {
     padding-top: 10px;
+    font-family:"Libre Baskerville", serif;
+    font-size: 60px;
 }
 .sub-heading {
     padding-top: 10px;
+    padding-right: 3px;
+    font-family:"Libre Baskerville", serif; 
+    font-size: 30px;
+    display: inline-block;
 }
-h3 {color: #000033; font-family: Georgia, "Times New Roman", serif; }
+.sub-heading2 {
+    padding-top: 10px;
+    padding-right: 3px;
+    font-family:"Libre Baskerville", serif; 
+    font-size: 25px;
+    display: inline-block;
+}
 
-form {font-family: sans-serif; color: darkgray; }
+.btn { 
+    display: inline-block;
+    vertical-align: bottom;
+
+}
+
+form {font-family:"Open Sans", sans-serif; color: darkgray; }
 
 /* Style all font awesome icons */
 .fa {
@@ -86,9 +161,6 @@ form {font-family: sans-serif; color: darkgray; }
     text-decoration: none;
 }
 
-button { display: inline-block;
-    vertical-align: bottom; 
-}
 /* Set width to make card deck cards 100% width */
 @media (max-width: 950px) { 
 

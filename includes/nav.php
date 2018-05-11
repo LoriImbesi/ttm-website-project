@@ -10,7 +10,7 @@
                     <a class="nav-link" href="index.php">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="events.html">Events</a>
+                    <a class="nav-link" href="events.php">Events</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="initiatives.php">Initiatives</a>
