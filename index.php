@@ -84,8 +84,13 @@
                     <div class="card-deck-wrapper" style="background-color: #F8F8F8;">
                         <div class="card-deck">
                             <div class="card">
+                              
+                                 <!--    <div class="card-img-overlay">
+    <h5 class="card-title">Card title</h5> -->
                                 <img class="card-img-top" src="Assets/cardcapgreen.jpg" alt="Card image cap">
+                              
                                 <div class="card-body">
+                              
                                     <h5 class="card-title">6:00 p.m. - 9:00 p.m.</h5>
                                     <p class="card-text">Blood, Sweat and Tears: Works by Russell Craig @ Philadlephia Magic Gardens.</p>
                                     <p class="card-text"><small class="text-muted">Organized by: Powerful Artwork Advocates for Social Change</small></p>
