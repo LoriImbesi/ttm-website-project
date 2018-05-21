@@ -36,20 +36,19 @@
 
                         <div class="col-6 mb-5">
                             <div class="px-2">
-                                A <strong>Working Group</strong> forms when Transition members share a passionate commitment for a particular topic related to creating a resilient community. TTM WORKING GROUPS </div>
-                        </div>
+                                A <strong>Working Group</strong> forms when Transition members share a passionate commitment for a particular topic related to creating a resilient community. </div> <a class="nav-link" href="initiatives.php" >TTM WORKING GROUPS </a></div>
                         <div class="col-1 mb-5">
                         </div>
                         <div class="col-5 mb-5 "style="background-image:url(Assets/free-store-fb-cover.jpg)"; max-width= 100%; ></div>
                         <div class="col-6 mb-5">
                             <div class="px-2">  
-                                Anyone can volunteer to sit the <strong>FreeStore</strong>, but we do ask that you sign up in our volunteer system and go through an informal "training" with one of our experienced volunteers.</div> <a class="nav-link" href="https://www.mediafreestore.com"style="color: #8fd4e4">LEARN MORE</a>
+                                Anyone can volunteer to sit the <strong>FreeStore</strong>, but we do ask that you sign up in our volunteer system and go through an informal "training" with one of our experienced volunteers.</div> <a class="nav-link" href="https://www.mediafreestore.com">LEARN MORE</a>
                         </div>
-                        <div class="col-5 mb-5 " style="background-image:url(Assets/TimeBank_Logo.png)"; max-width= 100%;></div>
+                        <div class="col-5 mb-5 " style="background-image:url(Assets/TBM_Logo.png)"; max-width= 100%;></div>
                         <div class="col-6 mb-5">
 
                             <div class="px-2">
-                                <strong>TimeBank Media</strong> is a volunteer-led initiative of Transition Town Media that strives to create a community-wide circle of giving to encourage people to volunteer their talents and receive, in return, help with their unmet needs.</div> <a class="nav-link" href="https://timebankmedia.org/"style="color: #8fd4e4">LEARN MORE</a>
+                                <strong>TimeBank Media</strong> is a volunteer-led initiative of Transition Town Media that strives to create a community-wide circle of giving to encourage people to volunteer their talents and receive, in return, help with their unmet needs.</div> <a class="nav-link" href="https://timebankmedia.org/">LEARN MORE</a>
                         </div>
 
                         <div class="col-5 mb-5 " style="background-image:url(Assets/ttmbuildingspirit_garden.jpg)"; max-width= 100%;></div>

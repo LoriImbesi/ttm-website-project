@@ -16,6 +16,8 @@
 
         <div class="hero-image">
             <div class="hero-text">
+                <quote>"The world as we have created it is a process of our thinking. It cannot be changed without changing our thinking." ~Albert Einstein
+                </quote>
 
             </div>
         </div>
@@ -84,14 +86,21 @@
                     <div class="card-deck-wrapper" style="background-color: #F8F8F8;">
                         <div class="card-deck">
                             <div class="card">
-                              
-                                 <!--    <div class="card-img-overlay">
-    <h5 class="card-title">Card title</h5> -->
+
+                                <!--    <div class="card-img-overlay">
+<h5 class="card-title">Card title</h5> -->
                                 <img class="card-img-top" src="Assets/cardcapgreen.jpg" alt="Card image cap">
-                              
+
                                 <div class="card-body">
-                              
-                                    <h5 class="card-title">6:00 p.m. - 9:00 p.m.</h5>
+
+                                    <h5 class="card-title">
+                                        <ul class="list-unstyled">
+                                            <li>JUN</li>
+                                            <li>2</li>
+                                            <li>SAT</li>
+                                        </ul>
+                                    </h5>
+                                    <h5 class="card-text">6:00 p.m. - 9:00 p.m.</h5>
                                     <p class="card-text">Blood, Sweat and Tears: Works by Russell Craig @ Philadlephia Magic Gardens.</p>
                                     <p class="card-text"><small class="text-muted">Organized by: Powerful Artwork Advocates for Social Change</small></p>
                                 </div>
@@ -99,7 +108,14 @@
                             <div class="card">
                                 <img class="card-img-top" src="Assets/cloudbluesky.jpg" alt="Card image cap">
                                 <div class="card-body">
-                                    <h5 class="card-title">6:00 p.m. - 9:00 p.m.</h5>
+                                    <h5 class="card-title">
+                                        <ul class="list-unstyled">
+                                            <li>JUN</li>
+                                            <li>2</li>
+                                            <li>SAT</li>
+                                        </ul>
+                                    </h5>
+                                    <h5 class="card-text">6:00 p.m. - 9:00 p.m.</h5>
                                     <p class="card-text">Blood, Sweat and Tears: Works by Russell Craig @ Philadlephia Magic Gardens.</p>
                                     <p class="card-text"><small class="text-muted">Organized by: Powerful Artwork Advocates for Social Change</small></p>
                                 </div>
@@ -107,7 +123,14 @@
                             <div class="card">
                                 <img class="card-img-top" src="Assets/cardcapgreen.jpg" alt="Card image cap">
                                 <div class="card-body">
-                                    <h5 class="card-title">6:00 p.m. - 9:00 p.m.</h5>
+                                    <h5 class="card-title">
+                                        <ul class="list-unstyled">
+                                            <li>JUN</li>
+                                            <li>2</li>
+                                            <li>SAT</li>
+                                        </ul>
+                                    </h5>
+                                    <h5 class="card-text">6:00 p.m. - 9:00 p.m.</h5>
                                     <p class="card-text">Blood, Sweat and Tears: Works by Russell Craig @ Philadlephia Magic Gardens.</p>
                                     <p class="card-text"><small class="text-muted">Organized by: Powerful Artwork Advocates for Social Change</small></p>
                                 </div>

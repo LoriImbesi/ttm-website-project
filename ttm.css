@@ -31,6 +31,21 @@ body, html {
     background-size: cover;
     position: relative;
 }
+.hero-text{
+    padding: 10px; 
+    position:absolute;
+    top: 350px;
+    right: 20px;
+    height: 100px;
+    width: 500px;
+    background:rgba(255,255,255,0.8);
+    text-align: left;
+
+    font-size: 20px;
+    font-weight: 250;
+    color: black;
+    
+}
 .background-image{
     background-position: center;
     background-repeat: no-repeat;
@@ -84,8 +99,21 @@ color: white;*/
 .btn-see-all-events:active {
    border-top-color: #1b435e;
    background: #1b435e;
+    
    }
-
+.card-title{
+    padding: 10px; 
+    position:absolute;
+    top: 0;
+    right: 0;
+    height: 90px;
+    width: 80px;
+    background: #8FD5E4;
+    text-align: center;
+    color: white;
+    font-weight: 300;
+    
+}
 footer { 
     color: rgb(245,245,245); 
     background-color: rgb(128, 128, 128); 
@@ -139,14 +167,14 @@ h4 {color: #000033; font-family:"Libre Baskerville", sans-serif; }
     font-size: 60px;
 }
 .sub-heading {
-    padding-top: 10px;
+    padding-top: 20px;
     padding-right: 3px;
     font-family:"Libre Baskerville", serif; 
     font-size: 30px;
     display: inline-block;
 }
 .sub-heading2 {
-    padding-top: 10px;
+    padding-top: 20px;
     padding-right: 3px;
     font-family:"Libre Baskerville", serif; 
     font-size: 25px;
@@ -173,8 +201,10 @@ form {font-family:"Open Sans", sans-serif; color: darkgray; }
 /* Set width to make card deck cards 100% width */
 @media (max-width: 950px) { 
 
-    .container {padding-left:10px; padding-right:10px; }
-    .card-deck-wrapper {margin-right:0; margin-left:0; 
+    .container {
+        padding-left:10px; padding-right:10px; }
+    .card-deck-wrapper {
+        margin-right:0; margin-left:0; 
     }
 
     /*	.card-deck {

@@ -28,7 +28,7 @@
                 <div class="col text-right">
                     <a href="https://www.facebook.com"><i class="fa fa-facebook"></i></a>
                     <a href="https://www.twitter.com"><i class="fa fa-twitter"></i></a>
-                    <a href="https://www.reddit.com"><i class="fa fa-reddit"></i></a>
+                    <a href="https://www.instagram.com"><i class="fa fa-instagram"></i></a>
                     <a href="#"><i class="fa fa-envelope"></i></a>
                 </div>
             </div>
